@@ -1,0 +1,16 @@
+[project]
+name = "vertex"
+version = "0.1.0"
+description = "Von-Neumann Evolutionary Engine for Tracking Data using JAX"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jax",
+    "jaxlib",
+    "chex",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
